@@ -11,7 +11,7 @@ title                    : "LineageOSPlus"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
-url                      : "https://LineageOSPlus.github.io"
+url                      : "http://lineageosplus.org"
 baseurl                  : "/"
 repository               : "LineageOSPlus/LineageOSPlus.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -112,6 +112,8 @@ author:
 include:
   - .htaccess
   - _pages
+  - _docs
+  - _data
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

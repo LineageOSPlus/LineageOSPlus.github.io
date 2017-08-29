@@ -1,10 +1,30 @@
 # main links
 main:
   - title: Documentation
-    url: /docs
+    url: /docs/intro/
 
 docs:
+  - title: Intro
+    children:
+      - title: "intro"
+        url: /docs/intro/
   - title: Kernel
+    children:
+      - title: "kernel"
+        url: /docs/kernel/
+
   - title: Docker
+    children:
+      - title: "docker"
+        url: /docs/docker/
+
   - title: Android
+    children:
+      - title: "android"
+        url: /docs/android/
+
   - title: Binder
+    children:
+      - title: "binder"
+        url: /docs/binder/
+
